@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045583411FF92814008339E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045583401FF92814008339E2 /* main.m */; };
+		045583441FF92814008339E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045583431FF92814008339E2 /* AppDelegate.m */; };
+		0455834A1FF92814008339E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045583481FF92814008339E2 /* Main.storyboard */; };
+		0455834C1FF92814008339E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0455834B1FF92814008339E2 /* Assets.xcassets */; };
+		0455834F1FF92814008339E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0455834D1FF92814008339E2 /* LaunchScreen.storyboard */; };
+		045583591FF92C74008339E2 /* ZDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045583581FF92C74008339E2 /* ZDTableViewController.m */; };
+		04C49FA01FFBC2D100B6943E /* bgDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C49F9F1FFBC2D100B6943E /* bgDefault.png */; };
+		04C49FA31FFBC31400B6943E /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C49FA21FFBC31400B6943E /* button.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0455833C1FF92814008339E2 /* DZ 29 - Skut_TableView_StatCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZ 29 - Skut_TableView_StatCell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045583401FF92814008339E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045583421FF92814008339E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		045583431FF92814008339E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		045583491FF92814008339E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0455834B1FF92814008339E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0455834E1FF92814008339E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		045583501FF92814008339E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045583561FF92842008339E2 /* DZ 29- Skut_TableView_StatCel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DZ 29- Skut_TableView_StatCel.h"; path = "DZ 29 - Skut_TableView_StatCell/DZ 29- Skut_TableView_StatCel.h"; sourceTree = "<group>"; };
+		045583571FF92C74008339E2 /* ZDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDTableViewController.h; sourceTree = "<group>"; };
+		045583581FF92C74008339E2 /* ZDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDTableViewController.m; sourceTree = "<group>"; };
+		04C49F9F1FFBC2D100B6943E /* bgDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bgDefault.png; path = ../bgDefault.png; sourceTree = "<group>"; };
+		04C49FA21FFBC31400B6943E /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045583391FF92814008339E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045583331FF92814008339E2 = {
+			isa = PBXGroup;
+			children = (
+				045583561FF92842008339E2 /* DZ 29- Skut_TableView_StatCel.h */,
+				0455833E1FF92814008339E2 /* DZ 29 - Skut_TableView_StatCell */,
+				0455833D1FF92814008339E2 /* Products */,
+				04C49FA11FFBC2E900B6943E /* Image */,
+			);
+			sourceTree = "<group>";
+		};
+		0455833D1FF92814008339E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0455833C1FF92814008339E2 /* DZ 29 - Skut_TableView_StatCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0455833E1FF92814008339E2 /* DZ 29 - Skut_TableView_StatCell */ = {
+			isa = PBXGroup;
+			children = (
+				045583421FF92814008339E2 /* AppDelegate.h */,
+				045583431FF92814008339E2 /* AppDelegate.m */,
+				045583571FF92C74008339E2 /* ZDTableViewController.h */,
+				045583581FF92C74008339E2 /* ZDTableViewController.m */,
+				045583481FF92814008339E2 /* Main.storyboard */,
+				0455834B1FF92814008339E2 /* Assets.xcassets */,
+				0455834D1FF92814008339E2 /* LaunchScreen.storyboard */,
+				045583501FF92814008339E2 /* Info.plist */,
+				0455833F1FF92814008339E2 /* Supporting Files */,
+			);
+			path = "DZ 29 - Skut_TableView_StatCell";
+			sourceTree = "<group>";
+		};
+		0455833F1FF92814008339E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				045583401FF92814008339E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C49FA11FFBC2E900B6943E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				04C49FA21FFBC31400B6943E /* button.png */,
+				04C49F9F1FFBC2D100B6943E /* bgDefault.png */,
+			);
+			name = Image;
+			path = "DZ 29 - Skut_TableView_StatCell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0455833B1FF92814008339E2 /* DZ 29 - Skut_TableView_StatCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045583531FF92814008339E2 /* Build configuration list for PBXNativeTarget "DZ 29 - Skut_TableView_StatCell" */;
+			buildPhases = (
+				045583381FF92814008339E2 /* Sources */,
+				045583391FF92814008339E2 /* Frameworks */,
+				0455833A1FF92814008339E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DZ 29 - Skut_TableView_StatCell";
+			productName = "DZ 29 - Skut_TableView_StatCell";
+			productReference = 0455833C1FF92814008339E2 /* DZ 29 - Skut_TableView_StatCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045583341FF92814008339E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dima Zgera";
+				TargetAttributes = {
+					0455833B1FF92814008339E2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 045583371FF92814008339E2 /* Build configuration list for PBXProject "DZ 29 - Skut_TableView_StatCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045583331FF92814008339E2;
+			productRefGroup = 0455833D1FF92814008339E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0455833B1FF92814008339E2 /* DZ 29 - Skut_TableView_StatCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0455833A1FF92814008339E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0455834F1FF92814008339E2 /* LaunchScreen.storyboard in Resources */,
+				04C49FA31FFBC31400B6943E /* button.png in Resources */,
+				0455834C1FF92814008339E2 /* Assets.xcassets in Resources */,
+				04C49FA01FFBC2D100B6943E /* bgDefault.png in Resources */,
+				0455834A1FF92814008339E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045583381FF92814008339E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045583441FF92814008339E2 /* AppDelegate.m in Sources */,
+				045583591FF92C74008339E2 /* ZDTableViewController.m in Sources */,
+				045583411FF92814008339E2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		045583481FF92814008339E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045583491FF92814008339E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0455834D1FF92814008339E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0455834E1FF92814008339E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045583511FF92814008339E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		045583521FF92814008339E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045583541FF92814008339E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DZ 29 - Skut_TableView_StatCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zgera-Dima.DZ-29---Skut-TableView-StatCell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		045583551FF92814008339E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DZ 29 - Skut_TableView_StatCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zgera-Dima.DZ-29---Skut-TableView-StatCell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045583371FF92814008339E2 /* Build configuration list for PBXProject "DZ 29 - Skut_TableView_StatCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045583511FF92814008339E2 /* Debug */,
+				045583521FF92814008339E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045583531FF92814008339E2 /* Build configuration list for PBXNativeTarget "DZ 29 - Skut_TableView_StatCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045583541FF92814008339E2 /* Debug */,
+				045583551FF92814008339E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045583341FF92814008339E2 /* Project object */;
+}
